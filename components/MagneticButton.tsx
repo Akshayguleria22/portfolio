@@ -25,11 +25,12 @@ export default function MagneticButton({
     const button = buttonRef.current;
     if (!button) return;
 
-    const handleMouseMove = (e: MouseEvent) => {
+    const handleMouseMove = (e: Event) => {
+      const mouseEvent = e as unknown as MouseEvent;
       const rect = button.getBoundingClientRect();
-      const x = e.clientX - rect.left - rect.width / 2;
-      const y = e.clientY - rect.top - rect.height / 2;
-      
+      const x = mouseEvent.clientX - rect.left - rect.width / 2;
+      const y = mouseEvent.clientY - rect.top - rect.height / 2;
+
       button.style.transform = `translate(${x / 5}px, ${y / 5}px)`;
     };
 

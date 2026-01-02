@@ -103,7 +103,7 @@ export default function StarryBackground() {
           left: 0,
         }}
       />
-      
+
       {/* Shooting Stars */}
       <Particles
         id="shooting-stars"
@@ -129,7 +129,6 @@ export default function StarryBackground() {
             },
             number: {
               value: 2,
-              max: 5,
             },
             opacity: {
               value: 1,
