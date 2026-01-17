@@ -6,37 +6,58 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "PathPilot",
+    description:
+      "PathPilot is an intelligent academic companion that combines AI-powered course planning, machine learning-based resource recommendations, and behavioral analytics to help students achieve academic excellence",
+    technologies: [
+      "NextJS",
+      "ML",
+      "LLM",
+      "Python",
+      "TypeScript",
+      "MongoDB",
+      "TailwindCSS",
+    ],
+    link: "https://path-pilot-one.vercel.app/",
+    image: "/projects/pathpilot.png",
+    date: "January 2026",
+  },
+  {
     title: "TrendTribe",
-    description: "End-to-end fashion recommendation system combining CV, ML, and backend for personalized outfit recommendations",
+    description:
+      "End-to-end fashion recommendation system combining CV, ML, and backend for personalized outfit recommendations",
     technologies: ["React", "Machine Learning", "Computer Vision", "Python"],
     link: "#",
-    image: "/projects/trendtribe.jpg",
-    date: "December 2025"
+    image: "/projects/trendtribe.svg",
+    date: "December 2025",
   },
   {
     title: "Aarogini",
-    description: "Full-stack women's healthcare platform with ML-driven report analysis, cycle prediction, and health recommendations",
+    description:
+      "Full-stack women's healthcare platform with ML-driven report analysis, cycle prediction, and health recommendations",
     technologies: ["MERN", "Machine Learning", "CSV Dataset", "React"],
     link: "#",
-    image: "/projects/aarogini.jpg",
-    date: "October 2025"
+    image: "/projects/aarogini.svg",
+    date: "October 2025",
   },
   {
     title: "Blabber Chat App",
-    description: "Real-time chat application using MERN stack with Socket.IO, secure authentication, and Cloudinary integration",
+    description:
+      "Real-time chat application using MERN stack with Socket.IO, secure authentication, and Cloudinary integration",
     technologies: ["MERN", "Socket.IO", "JWT", "Cloudinary"],
     link: "#",
-    image: "/projects/chat.jpg",
-    date: "July 2025"
+    image: "/projects/chat.svg",
+    date: "July 2025",
   },
   {
     title: "Subscription Tracker",
-    description: "Backend subscription tracking system with JWT authentication, email reminders, and MongoDB storage",
+    description:
+      "Backend subscription tracking system with JWT authentication, email reminders, and MongoDB storage",
     technologies: ["Express.js", "MongoDB", "JWT", "Nodemailer"],
     link: "#",
-    image: "/projects/subscription.jpg",
-    date: "June 2025"
-  }
+    image: "/projects/subscription.svg",
+    date: "June 2025",
+  },
 ];
 
 export default function Projects() {
@@ -69,18 +90,20 @@ export default function Projects() {
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-6xl opacity-20">🚀</div>
                   </div>
-                  {/* Uncomment below when you add actual images */}
-                  {/* <Image
+                  <Image
                     src={project.image}
                     alt={project.title}
                     fill
+                    loading="eager"
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
-                  /> */}
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-card/90 to-transparent" />
                 </div>
 
                 <CardHeader>
-                  <CardTitle className="text-white text-xl">{project.title}</CardTitle>
+                  <CardTitle className="text-white text-xl">
+                    {project.title}
+                  </CardTitle>
                   <CardDescription className="text-gray-300">
                     {project.description}
                   </CardDescription>
