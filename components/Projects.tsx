@@ -44,9 +44,9 @@ const projects = [
     title: "Blabber Chat App",
     description:
       "Real-time chat application using MERN stack with Socket.IO, secure authentication, and Cloudinary integration",
-    technologies: ["MERN", "Socket.IO", "JWT", "Cloudinary"],
-    link: "#",
-    image: "/projects/chat.svg",
+    technologies: ["MERN", "Socket.IO", "JWT", "Cloudinary", "oauth"],
+    link: "https://blabber-sigma.vercel.app/",
+    image: "/projects/chat.png",
     date: "July 2025",
   },
   {
