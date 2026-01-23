@@ -78,8 +78,8 @@ export default function Hero() {
               solutions.
               <br className="hidden sm:block" />
               <span className="sm:inline block mt-1 sm:mt-0">
-                Expertise in MERN, Python, SQL, Problem-Solving, RESTful APIs, and Enthusiastic in AI/ML
-                integration.
+                Expertise in MERN, Python, SQL, Problem-Solving, RESTful APIs,
+                and Enthusiastic in AI/ML integration.
               </span>
               <br className="hidden sm:block" />
               <span className="sm:inline block mt-1 sm:mt-0">
@@ -106,7 +106,7 @@ export default function Hero() {
               Contact Me
             </MagneticButton>
             <MagneticButton
-              href="https://drive.google.com/file/d/1tvHdUckFowDTM-q3O22dqfpbHlUUXln0/view?usp=sharing"
+              href="https://drive.google.com/file/d/1w06j-64ipic5VtYPqGo5EjAiAtLpOxyk/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 sm:px-8 py-2.5 sm:py-3 text-sm sm:text-base bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition-colors"
