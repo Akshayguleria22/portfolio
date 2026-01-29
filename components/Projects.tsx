@@ -50,6 +50,15 @@ const projects = [
     date: "July 2025",
   },
   {
+    title: "Mojito Lover",
+    description:
+      "A stunning GSAP-powered cocktail website with cool effects and lock sections, scroll-driven experience packed with advanced animations.",
+    technologies: ["ThreeJS", "GSAP", "React", "TailwindCSS"],
+    link: "https://mojito-lover.vercel.app/",
+    image: "/projects/mojito.png",
+    date: "June 2025",
+  },
+  {
     title: "Subscription Tracker",
     description:
       "Backend subscription tracking system with JWT authentication, email reminders, and MongoDB storage",
