@@ -14,38 +14,40 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: "Freelancing as a Full Stack Developer",
-    company: "Self-Employed",
-    period: "June 2025 - Present",
-    description: "Supporting multiple projects under a supervisor handling freelancing projects",
+    title: "Working Under individual Supervision",
+    company: "Mentor Guided Freelancing",
+    period: "July 2025 - Present",
+    description:
+      "Supporting multiple projects under a supervisor handling freelancing projects",
     achievements: [
       "Hands-on experience with multiple projects as Full-Stack Developer",
       "Working with diverse tech stacks and client requirements",
-      "Delivering scalable and production-ready solutions"
-    ]
+      "Delivering scalable and production-ready solutions",
+    ],
   },
   {
     title: "Virtual Job Simulation",
     company: "Deloitte",
     period: "June 2025",
-    description: "Participated in a virtual job simulation to enhance problem-solving skills",
+    description:
+      "Participated in a virtual job simulation to enhance problem-solving skills",
     achievements: [
       "Solved real-world business problems in a simulated environment",
       "Enhanced analytical and decision-making skills",
-      "Gained insights into Deloitte's work culture and expectations"
-    ]
+      "Gained insights into Deloitte's work culture and expectations",
+    ],
   },
   {
     title: "Full Stack Intern",
-    company: "DCodingTech",
-    period: "May 2025 - June 2025",
+    company: "DCodingTechnologies",
+    period: "May 2025 - July 2025",
     description: "Great learning experience working with an amazing team",
     achievements: [
       "Gained hands-on skills in full-stack development",
       "Collaborated with experienced developers on real-world projects",
-      "Applied modern development practices and workflows"
-    ]
-  }
+      "Applied modern development practices and workflows",
+    ],
+  },
 ];
 
 function ExperienceCard({ experience, index }: { experience: ExperienceItem; index: number }) {
