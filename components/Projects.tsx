@@ -36,8 +36,8 @@ const projects = [
     description:
       "Full-stack women's healthcare platform with ML-driven report analysis, cycle prediction, and health recommendations",
     technologies: ["MERN", "Machine Learning", "CSV Dataset", "React"],
-    link: "#",
-    image: "/projects/aarogini.svg",
+    link: "https://aarogini.vercel.app/landing",
+    image: "/projects/aarogini.png",
     date: "October 2025",
   },
   {
