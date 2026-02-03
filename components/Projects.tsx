@@ -27,7 +27,7 @@ const projects = [
     description:
       "End-to-end fashion recommendation system combining CV, ML, and backend for personalized outfit recommendations",
     technologies: ["React", "Machine Learning", "Computer Vision", "Python"],
-    link: "#",
+    link: "https://trendtribe.vercel.app/",
     image: "/projects/trendtribe.svg",
     date: "December 2025",
   },
@@ -36,8 +36,8 @@ const projects = [
     description:
       "Full-stack women's healthcare platform with ML-driven report analysis, cycle prediction, and health recommendations",
     technologies: ["MERN", "Machine Learning", "CSV Dataset", "React"],
-    link: "https://aarogini.vercel.app/landing",
-    image: "/projects/aarogini.png",
+    link: "https://aarogini.vercel.app/",
+    image: "/projects/Aarogini.png",
     date: "October 2025",
   },
   {
