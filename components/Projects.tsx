@@ -23,18 +23,27 @@ const projects = [
     date: "January 2026",
   },
   {
-    title: "TrendTribe",
+    title: "Tripee",
     description:
-      "End-to-end fashion recommendation system combining CV, ML, and backend for personalized outfit recommendations",
-    technologies: ["React", "Machine Learning", "Computer Vision", "Python"],
-    link: "https://trendtribe.vercel.app/",
-    image: "/projects/trendtribe.svg",
+      "Tripee is a full-stack travel and cultural discovery platform with: Trip planning and budget tracking, Places and cultural artifacts discovery, Visual search (ML embeddings), AI-assisted recommendations",
+    technologies: [
+      "React",
+      "Machine Learning",
+      "Clip",
+      "Torch",
+      " Python",
+      "Node.js",
+      "Express",
+      "MongoDB",
+    ],
+    link: "https://tripee-pi.vercel.app/",
+    image: "/projects/Tripee.png",
     date: "December 2025",
   },
   {
     title: "Aarogini",
     description:
-      "Full-stack women's healthcare platform with ML-driven report analysis, cycle prediction, and health recommendations",
+      "Full-stack women's healthcare platform with ML-driven report analysis, cycle prediction, and health recommendations for personalized wellness",
     technologies: ["MERN", "Machine Learning", "CSV Dataset", "React"],
     link: "https://aarogini.vercel.app/",
     image: "/projects/Aarogini.png",
@@ -43,7 +52,7 @@ const projects = [
   {
     title: "Blabber Chat App",
     description:
-      "Real-time chat application using MERN stack with Socket.IO, secure authentication, and Cloudinary integration",
+      "Real-time chat application using MERN stack with Socket.IO, secure authentication, and Cloudinary integration for media uploads",
     technologies: ["MERN", "Socket.IO", "JWT", "Cloudinary", "oauth"],
     link: "https://blabber-sigma.vercel.app/",
     image: "/projects/chat.png",

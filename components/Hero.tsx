@@ -106,7 +106,7 @@ export default function Hero() {
               Contact Me
             </MagneticButton>
             <MagneticButton
-              href="https://drive.google.com/file/d/13UNyfUdpLvmw1PJyvvDTbsUzhpU33K19/view?usp=sharing"
+              href="https://drive.google.com/file/d/1MySgTPgahFEsjOeWVeU_ANfhUrZvSpXo/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 sm:px-8 py-2.5 sm:py-3 text-sm sm:text-base bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition-colors"
