@@ -6,6 +6,15 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "Commune",
+    description:
+      "Commune is a open source contribution web-app made for developers for creating community and assign tasks to members of community. It also covers events, tasks, messages and more. explore the website and do for your community by contributing.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "TensorFlow.js"],
+    link: "https://commune-web-six.vercel.app/",
+    image: "/projects/Commune.png",
+    date: "February 2026",
+  },
+  {
     title: "PathPilot",
     description:
       "PathPilot is an intelligent academic companion that combines AI-powered course planning, machine learning-based resource recommendations, and behavioral analytics to help students achieve academic excellence",
