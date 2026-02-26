@@ -9,7 +9,13 @@ const projects = [
     title: "Commune",
     description:
       "Commune is a open source contribution web-app made for developers for creating community and assign tasks to members of community. It also covers events, tasks, messages and more. explore the website and do for your community by contributing.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "TensorFlow.js"],
+    technologies: [
+      "React",
+      "Next.js - Turbo",
+      "Express",
+      "PostGres",
+      "Websocket",
+    ],
     link: "https://commune-web-six.vercel.app/",
     image: "/projects/Commune.png",
     date: "February 2026",
@@ -76,15 +82,15 @@ const projects = [
     image: "/projects/mojito.png",
     date: "June 2025",
   },
-  {
-    title: "Subscription Tracker",
-    description:
-      "Backend subscription tracking system with JWT authentication, email reminders, and MongoDB storage",
-    technologies: ["Express.js", "MongoDB", "JWT", "Nodemailer"],
-    link: "#",
-    image: "/projects/subscription.svg",
-    date: "June 2025",
-  },
+  // {
+  //   title: "Subscription Tracker",
+  //   description:
+  //     "Backend subscription tracking system with JWT authentication, email reminders, and MongoDB storage",
+  //   technologies: ["Express.js", "MongoDB", "JWT", "Nodemailer"],
+  //   link: "#",
+  //   image: "/projects/subscription.svg",
+  //   date: "June 2025",
+  // },
 ];
 
 export default function Projects() {
