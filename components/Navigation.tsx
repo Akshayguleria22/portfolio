@@ -66,7 +66,7 @@ export default function Navigation() {
               transition={{ duration: 0.5, delay: navItems.length * 0.1 }}
             >
               <MagneticButton
-                href="https://drive.google.com/file/d/1ha0PtIeiFhuB6zJrhon_Frs2v4qD4sqL/view?usp=sharing"
+                href="https://drive.google.com/file/d/1bX3O5_nTfs8rkRub7C56q-WqqTlJmQuM/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition-colors text-sm"

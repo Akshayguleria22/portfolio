@@ -6,6 +6,23 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "Orkestron",
+    description:
+      "Autonomous, production-ready multi-agent orchestration platform that executes natural-language tasks through planning, retrieval, reasoning, comparison, and synthesis agents with built-in observability, billing, and a plugin marketplace.",
+    technologies: [
+      "NextJS",
+      "TypeScript",
+      "Python",
+      "PostGres",
+      "Websocket",
+      "ML",
+      "LLM",
+    ],
+    link: "https://orkestron-eta.vercel.app/",
+    image: "/projects/orkestron.png",
+    date: "March 2026",
+  },
+  {
     title: "Commune",
     description:
       "Commune is a open source contribution web-app made for developers for creating community and assign tasks to members of community. It also covers events, tasks, messages and more. explore the website and do for your community by contributing.",
