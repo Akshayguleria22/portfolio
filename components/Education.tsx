@@ -19,10 +19,11 @@ const education: EducationItem[] = [
     period: "2023 - 2027",
     description: "Pursuing B.Tech in Computer Science Engineering",
     achievements: [
-      "CGPA: 7.91",
+      "CGPA: 7.88",
+      "Patent file on Habitoose (2026)",
       "Research paper on Secure file hosting on AWS and IIS integration (2025)",
-      "Patent file on UrbanGuardian (2024)"
-    ]
+      "Patent file on UrbanGuardian (2024)",
+    ],
   },
   {
     degree: "Matriculation (CBSE)",
@@ -31,9 +32,9 @@ const education: EducationItem[] = [
     description: "Secondary education with focus on Science and Mathematics",
     achievements: [
       "Strong foundation in academics",
-      "Active participation in extracurricular activities"
-    ]
-  }
+      "Active participation in extracurricular activities",
+    ],
+  },
 ];
 
 function EducationCard({ education, index }: { education: EducationItem; index: number }) {
