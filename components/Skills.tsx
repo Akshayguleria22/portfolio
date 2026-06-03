@@ -4,20 +4,28 @@ import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const skills = {
+  "Programming Languages": {
+    skills: ["JavaScript", "TypeScript", "Python", "Java", "C++"],
+    icon: "💻"
+  },
   "Frontend": {
-    skills: ["React", "Redux", "JavaScript", "JSON", "UI/UX", "GSAP Animations"],
+    skills: ["React", "Angular", "GSAP" ,"TailwindCSS", "Framer Motion", "Next.js", "TurboRepo", "WordPress"],
     icon: "⚛️"
   },
   "Backend": {
-    skills: ["Node.js", "Python", "Express.js", "RESTful APIs", "MongoDB", "MySQL"],
+    skills: ["Node.js", "Django","Spring Boot" ,"Express.js", "RESTful APIs", "GraphQL", "Websocket"],
     icon: "⚙️"
   },
+  "Databases": {
+    skills: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Redis"],
+    icon: "🗄️"
+  },
   "Tools & Technologies": {
-    skills: ["Visual Studio Code", "Git", "WordPress", "Cloudinary", "Socket.IO", "JWT"],
+    skills: ["Antigravity", "GitHub", "WordPress", "CI/CD", "Linux", "Docker", "AWS", "Postman" ,"Figma", "VS Code", "Jira", "Agile Methodologies", "Scrum", "Kafka"],
     icon: "🛠️"
   },
   "AI/ML & Other": {
-    skills: ["Machine Learning", "Data Preprocessing", "Predictive Analysis", "Computer Vision", "Nodemailer", "Bcrypt"],
+    skills: ["Machine Learning","Retrieval-Augmented Generation (RAG)" , "Data Preprocessing", "Predictive Analysis", "Computer Vision", "Natural Language Processing"],
     icon: "✨"
   }
 };

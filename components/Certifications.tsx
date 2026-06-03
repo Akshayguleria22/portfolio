@@ -5,22 +5,16 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const certifications = [
   {
-    title: "Advanced Python",
-    issuer: "LinkedIn Learning",
-    date: "2025",
-    icon: "🐍"
-  },
-  {
-    title: "Job Simulation",
-    issuer: "Deloitte",
-    date: "2025",
-    icon: "💼"
-  },
-  {
     title: "Full Stack Development with Java",
     issuer: "Infosys Springboard",
     date: "2025",
     icon: "💻"
+  },
+  {
+    title: "Virtual Job Simulation",
+    issuer: "Deloitte",
+    date: "2025",
+    icon: "💼"
   },
   {
     title: "Cloud Computing",
@@ -37,12 +31,25 @@ const certifications = [
   {
     title: "Learning how to learn-Powerful ways to learn",
     issuer: "Coursera",
-    date: "2025",
+    date: "2024",
     icon: "🧠"
   }
+  {
+    title: "Advanced Python",
+    issuer: "LinkedIn Learning",
+    date: "2024",
+    icon: "🐍"
+  },
 ];
 
 const achievements = [
+  {
+    title: "Filed a Patent",
+    description: "Habitoose - A new way of tracking habits and productivity",
+    organization: "Chandigarh University",
+    year: "2026",
+    icon: "⚡"
+  }
   {
     title: "Wrote a Research Paper",
     description: "Secure file hosting on AWS and IIS integration",
@@ -57,6 +64,7 @@ const achievements = [
     year: "2024",
     icon: "⚡"
   }
+  
 ];
 
 export default function Certifications() {

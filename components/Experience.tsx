@@ -14,18 +14,6 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: "Working Under individual Supervision",
-    company: "Mentor Guided Freelancing",
-    period: "July 2025 - Present",
-    description:
-      "Supporting multiple projects under a supervisor handling freelancing projects",
-    achievements: [
-      "Hands-on experience with multiple projects as Full-Stack Developer",
-      "Working with diverse tech stacks and client requirements",
-      "Delivering scalable and production-ready solutions",
-    ],
-  },
-  {
     title: "Virtual Job Simulation",
     company: "Deloitte",
     period: "June 2025",
@@ -39,7 +27,7 @@ const experiences: ExperienceItem[] = [
   },
   {
     title: "Full Stack Intern",
-    company: "DCodingTechnologies",
+    company: "D Coding Technologies",
     period: "May 2025 - July 2025",
     description: "Great learning experience working with an amazing team",
     achievements: [
@@ -48,6 +36,17 @@ const experiences: ExperienceItem[] = [
       "Applied modern development practices and workflows",
     ],
   },
+  {
+    title: "Web Development Intern",
+    company: "Micro IT",
+    period: "April 2025 - May 2025",
+    description: "Learned web development fundamentals and worked on real-world projects",
+    achievements: [
+      "Gained hands-on experience with Web development technologies",
+      "Collaborated with team members to develop responsive web applications",
+      "Applied best practices for user experience and accessibility",
+    ],
+  }
 ];
 
 function ExperienceCard({ experience, index }: { experience: ExperienceItem; index: number }) {
