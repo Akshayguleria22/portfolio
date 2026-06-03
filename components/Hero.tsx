@@ -74,12 +74,11 @@ export default function Hero() {
               </span>
             </p>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed">
-              Passionate about building scalable, data-driven, and automated
-              solutions.
+              Software Developer who is Passionate about building scalable, data-driven, and RAG Systems.
               <br className="hidden sm:block" />
               <span className="sm:inline block mt-1 sm:mt-0">
-                Expertise in MERN, Python, SQL, Problem-Solving, RESTful APIs,
-                and Enthusiastic in AI/ML integration.
+                Experienced in building end-to-end applications, designing efficient data pipelines,
+                and Building RAG-powered applications.
               </span>
               <br className="hidden sm:block" />
               <span className="sm:inline block mt-1 sm:mt-0">

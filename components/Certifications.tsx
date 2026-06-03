@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const certifications = [
   {
-    title: "Full Stack Development with Java",
+    title: "Full Stack Development with Java and Angular",
     issuer: "Infosys Springboard",
     date: "2025",
     icon: "💻"
