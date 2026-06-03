@@ -33,7 +33,7 @@ const certifications = [
     issuer: "Coursera",
     date: "2024",
     icon: "🧠"
-  }
+  },
   {
     title: "Advanced Python",
     issuer: "LinkedIn Learning",
@@ -49,7 +49,7 @@ const achievements = [
     organization: "Chandigarh University",
     year: "2026",
     icon: "⚡"
-  }
+  },
   {
     title: "Wrote a Research Paper",
     description: "Secure file hosting on AWS and IIS integration",
