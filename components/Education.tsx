@@ -19,7 +19,7 @@ const education: EducationItem[] = [
     period: "2023 - 2027",
     description: "Pursuing B.Tech in Computer Science Engineering",
     achievements: [
-      "CGPA: 7.88",
+      "CGPA: 7.92 (Till 6th Semester)",
       "Patent file on Habitoose (2026)",
       "Research paper on Secure file hosting on AWS and IIS integration (2025)",
       "Patent file on UrbanGuardian (2024)",
